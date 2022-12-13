@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ButtonUp" transform="translate(-1530 -7431)">
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(1530 7431)" fill="#fff" stroke="#00bcd0" stroke-width="1">
+      <rect width="30" height="30" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" rx="2.5" fill="none"/>
+    </g>
+    <path id="Path_180" data-name="Path 180" d="M-17925.652-909.837l8.383-8.383,8.383,8.383" transform="translate(19462.27 8360.028)" fill="none" stroke="#00bcd0" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

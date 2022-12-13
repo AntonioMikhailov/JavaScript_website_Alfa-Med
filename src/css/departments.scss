@@ -1,0 +1,139 @@
+.depart-1 {
+	padding:50px 0px 0px 0px;
+}
+.d1__title {
+}
+.d1__row {
+	display:flex;
+	margin:0 -20px;
+	margin-top:40px;
+}
+.d1__left {
+	flex-basis:50%;
+	padding:0 20px;
+}
+.d1__left img {
+	width:100%;
+}
+.d1__right {
+	flex-basis:50%;
+	padding:0 20px;
+	margin:-6px 0px 0px 0px;
+}
+.d1__text span {
+	font-family:b;
+	color:$blue;
+}
+@media screen and (max-width:600px) {
+	.d1__row {
+	flex-direction:column;
+	margin-top:30px;
+}
+.d1__right {
+	margin:30px 0px 0px 0px;
+}
+}
+@media screen and (max-width:400px) {
+	.depart-1 {
+	padding:30px 0px 0px 0px;
+}
+}
+
+.depart-2 {
+	padding:110px 0px 0px 0px;
+}
+.d2__title {
+}
+.d2__row {
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 -10px;
+	margin-top:50px;
+}
+.d2__column {
+	flex-basis:33.3%;
+	padding:0 10px;
+	margin:0px 0px 20px 0px;
+	transition:all .3s ease .0s;
+}
+.d2__column:hover .d2__item {
+	border:1px solid $blue;
+}
+
+.d2__column:hover .d2-item__left img {
+	animation-name:iconAnime;
+	animation:iconAnime 1.0s infinite;
+}
+.d2__column:hover .d2-item__title {
+	color:$blue;
+}
+.d2__item {
+	border:1px solid #C2C2C2;
+
+ padding:20px 20px 40px 20px;
+	border-radius:5px;
+	height:100%;
+	transition:all .3s ease .0s;
+}
+.d2-item__left {
+	flex-basis:30%;
+}
+.d2-item__left img {
+	max-width:80px;
+	height:70px;
+}
+.d2-item__right {
+	flex-basis:70%;
+	margin:20px 0px 0px 0px;
+}
+.d2-item__title {
+	font-family:b;
+	font-size:20px;
+	transition:all 0.3s ease .0s;
+}
+.d2-item__text {
+	margin:10px 0px 0px 0px;
+}
+@media screen and (max-width:768px) {
+	.depart-2 {
+	padding:80px 0px 0px 0px;
+}
+.d2__row {
+	margin-top:30px;
+}
+.d2__column {
+	flex-basis:50%;
+	padding:0 10px;
+	margin:0px 0px 20px 0px;
+}
+}
+@media screen and (max-width:500px) {
+	.d2__column {
+	flex-basis:100%;
+}
+.d2__item {
+	display:flex;
+	padding:20px 20px 20px 20px;
+}
+.d2-item__right {
+	flex-basis:80%;
+	margin:0px 0px 0px 0px;
+}
+.d2-item__left {
+	flex-basis:30%;
+	margin:0px 10px 0px 0px;
+}
+}
+@media screen and (max-width:400px) {
+	.depart-2 {
+	padding:50px 0px 0px 0px;
+}
+.d2__item {
+	display:block;
+	padding:20px 20px 20px 20px;
+}
+.d2-item__right {
+	flex-basis:80%;
+	margin:20px 0px 0px 0px;
+}
+}

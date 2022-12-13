@@ -1,0 +1,157 @@
+.about-nav {
+	padding:30px 0px 0px 0px;
+}
+.a-nav__row {
+	display:flex;
+	align-items:center;
+}
+.a-nav__home {
+	font-size:18px;
+	margin:0px 8px 0px 0px;
+	transition:all 0.3s ease .0s;
+}
+.a-nav__home:hover {
+	color:$blue;
+}
+.a-nav__icon img {
+	width:8px;
+	margin:2px 5px 0px 0px;
+}
+.a-nav__page {
+	font-size:18px;
+}
+.about-1 {
+	padding:40px 0px 0px 0px;
+}
+.a1__title {
+
+}
+.a1__row {
+	display:flex;
+	margin:0 -20px;
+	margin-top:60px;
+}
+.a1__left {
+	flex-basis:50%;
+}
+.a1__left img {
+	width:100%;
+	padding:0 20px;
+}
+.a1__right {
+	flex-basis:50%;
+	position:relative;
+	padding:0 20px;
+}
+.a1-right__title {
+	margin:-7px 0px 0px 0px;
+}
+.a1-right__text {
+	margin:40px 0px 0px 0px;
+}
+.a1__nameRow {
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	margin:100px 0px 0px 0px;
+}
+.a1-right__name {
+	flex-basis:50%;
+	flex-grow:0;
+	font-family:b;
+	font-size:18px;
+	margin:0px 30px 0px 0px;
+}
+.a1-right__name span {
+	display:block;
+	margin:5px 0px 0px 0px;
+}
+.a1-right__signature {
+	flex-basis:50%;
+}
+.a1-right__signature img {
+	width:100%;
+	right:10px;
+	bottom:0px;
+}
+@media screen and (max-width:1200px) {
+	.a1-right__signature img {
+	bottom:-40px;
+}
+}
+@media screen and (max-width:768px) {
+	.a1-right__text {
+	margin:30px 0px 0px 0px;
+}
+}
+@media screen and (max-width:700px) {
+}
+@media screen and (max-width:600px) {
+	.a1__row {
+	margin-top:40px;
+	flex-direction:column;
+}
+.a1__right {
+	margin:50px 0px 0px 0px;
+}
+.a1__nameRow {
+	margin:60px 0px 0px 0px;
+}
+.a1-right__signature img {
+	width:130px;
+}
+}
+@media screen and (max-width:400px) {
+	.about-1 {
+	padding:20px 0px 0px 0px;
+}
+.a1__row {
+	margin-top:30px;
+}
+.a1__right {
+	margin:30px 0px 0px 0px;
+}
+.a1-right__text {
+	margin:20px 0px 0px 0px;
+}
+}
+
+.about-2 {
+	padding:120px 0px 0px 0px;
+}
+.a2__smallTitle {
+}
+.a2__title {
+	margin:30px 0px 0px 0px;
+	max-width:700px;
+	line-height:100%;
+}
+.a2-row {
+	margin:0 -20px;
+	margin-top:50px;
+}
+.a2-column {
+	padding:0px 0px 0px 0px;
+}
+.a2-item {
+	background-color:transparent;
+}
+@media screen and (max-width:768px) {
+	.a2__title {
+	margin:30px 0px 0px 0px;
+	max-width:500px;
+	line-height:100%;
+}
+.a2-row {
+	margin:0 -20px;
+	margin-top:0px;
+}
+}
+@media screen and (max-width:500px) {
+	.about-2 {
+	padding:80px 0px 0px 0px;
+}
+.a2__title {
+	margin:10px 0px 0px 0px;
+}
+}
