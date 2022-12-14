@@ -15,7 +15,6 @@
 • JavaScript, HTML, LESS
 •	GULP (ES6), WebPack
 
-
 &nbsp;
 ## Реализация функционала и логики
  
