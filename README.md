@@ -1,6 +1,7 @@
  
 # JavaScript_website_Alfa-Med
-
+##### Реализация данного сайта через React App
+[React_website_Alfa-Med](https://github.com/AntonioMikhailov/React_website_Alfa-Med 'React_website_Alfa-Med')
 &nbsp;
 
 ![alt text](https://github.com/AntonioMikhailov/AntonioMikhailov/blob/main/assets/alfa-js.png)
